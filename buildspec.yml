@@ -15,5 +15,5 @@ commands:
 - sleep 10
 - aws lambda update-function-configuration --function-name lambda_s3_manual_deployment_function --handler lambda.handler
 artifacts:
-files:
+  files:
 - lambda-package.zip
