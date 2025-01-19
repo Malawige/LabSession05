@@ -4,6 +4,7 @@ phases:
     runtime-versions:
       nodejs: 20
     commands:
+      - cd my-app
       - npm install
   build:
     commands:
