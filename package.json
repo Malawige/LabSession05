@@ -1,13 +1,1 @@
-{
-  "name": "express-lambda-api",
-  "version": "1.0.0",
-  "main": "lambda.js",
-  "scripts": {
-    "start": "node lambda.js"
-  },
-  "dependencies": {
-    "express": "^4.17.1",
-    "aws-serverless-express": "^3.3.8",
-    "body-parser": "^1.19.0"
-  }
-}
+
