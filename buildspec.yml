@@ -4,7 +4,8 @@ phases:
     runtime-versions:
       nodejs: 20
     commands:
-      - cd my-app
+      - echo "Current directory contents:"
+      - ls -al
       - npm install
   build:
     commands:
